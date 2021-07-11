@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="app.js" defer></script>
+    <title>Wishful | Wishlist</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Wish<span id="special">ful</span></h2>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Our App</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h3>Welcome back Victoria!</h3>
+            <aside class="right-bar">
+                <i class="fas fa-bars"></i>
+                <div class="item" id="modal">
+                        <h6>Add Item</h6>
+                        <i class="fas fa-plus-circle"></i>
+                </div>
+            </aside>
+            <!-- Start of wish list form -->
+            <div class="wishlist">
+                <h2>Add an item to your wishlist</h2><span id="close">&times;</span>
+                <div class="name">
+                    <img src="images/Frame 300@2x.png" alt="">
+                    <div>
+                        <input type="text" placeholder="Enter Name">
+                    </div>
+                </div>
+            </div>
+            <!-- End of wish list form -->
+        </section>
+
+        <!-- Recently added items -->
+        <div class="recent-row">
+            <h6>Recently Added</h6>
+            <div class="images">
+                <img src="images/1.png" alt="">
+                <img src="images/2.png" alt="">
+                <img src="images/3.png" alt="">
+                <img src="images/4.png" alt="">
+                <img src="images/5.png" alt="">
+                <img src="images/6.png" alt="">
+            </div>
+        </div>
+
+        <div class="category-main">
+            <h6>Category</h6>
+            <div class="category">
+                <div>
+                    <img src="images/7.png" alt="">
+                    <h4>Education</h4>
+                </div>
+                <div>
+                    <img src="images/8.png" alt="">
+                    <h4>Food</h4>
+                </div>
+                <div>
+                    <img src="images/9.png" alt="">
+                    <h4>Clothes</h4>
+                </div>
+                <div>
+                    <img src="images/10.png" alt="">
+                    <h4>Places</h4>
+                </div>
+                <div>
+                    <img src="images/11.png" alt="">
+                    <h4>Nails</h4>
+                </div>
+                <div>
+                    <img src="images/12.png" alt="">
+                    <h4>Bags</h4>
+                </div>
+                <div>
+                    <img src="images/13.png" alt="">
+                    <h4>Cars</h4>
+                </div>
+                <div>
+                    <img src="images/14.png" alt="">
+                    <h4>Shoes</h4>
+                </div>
+                <div>
+                    <img src="images/15.png" alt="">
+                    <h4>Hair</h4>
+                </div>
+                <div>
+                    <img src="images/16.png" alt="">
+                    <h4>Drinks</h4>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Wishlist section -->
+        <div class="wishlist">
+            <div id="heading">
+                <h6>Your wishlist</h6><i class="fas fa-heart"></i>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="images/17.png" alt="">
+                    <figcaption>Enable a friend to view this wish</figcaption>
+                    <h6>Update Settings</h6>
+                </figure>
+                <div class="content-details">
+                    <div class="title">
+                        <div class="unit">
+                            <h4>Fruit Custard</h4>
+                            <div class="circle" id="default1"></div><small>Tag</small>
+                        </div>
+                        <a href="#"><i class="fas fa-pencil-alt"></i></a>
+                    </div>
+                    <div class="category-grp">
+                      <div>
+                          <h5>Category</h5>
+                          <i class="fas"></i>
+                          <p>Food</p>
+                      </div>
+                      <div>
+                          <h5>Added</h5>
+                          <i class="fas"></i>
+                          <p>Saturday, June 26, 2021</p>
+                      </div>
+                      <div>
+                          <h5>Reminder</h5>
+                          <i class="fas fa-stopwatch"></i>
+                          <p>Tuesday, July 20, 2021</p>
+                      </div>
+                      <div>
+                          <h5>Location</h5>
+                          <i class="fas fa-map-marker-alt"></i>
+                          <p>Maya Restaurant, #54 Nsikak Eduok Avenue, <br>Uyo, Akwa Ibom State</p>
+                      </div>
+                    </div>
+                    <div class="shorten">
+                        <h5>Description</h5>
+                        <p><a href="#">Found this in a Maya Restaurant, I'll go with mum to eat with her here on Tuesday, July 20, 2021</a></p>
+                    </div>
+                    <div class="share">
+                        <h5>Share</h5>
+                        <i class="fas fa-user-friends"></i>
+                        <p>Not shared<span></span></p>
+                        <div class="close">
+                            <a href="#"><i class="fas fa-angle-up"></i><span>Close</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="images/Rectangle 98.png" alt="">
+                    <figcaption>Enable a friend to view this wish</figcaption>
+                    <h6>Update Settings</h6>
+                </figure>
+                <div class="content-details">
+                    <div class="title">
+                        <div class="unit">
+                            <h4>Blue Heel Shoes</h4>
+                            <div class="circle" id="default2"></div><small>Tag</small>
+                        </div>
+                        <a href="#"><i class="fas fa-pencil-alt"></i></a>
+                    </div>
+                    <div class="category-grp">
+                      <div>
+                          <h5>Category</h5>
+                          <i class="fas"></i>
+                          <p>Shoes</p>
+                      </div>
+                      <div>
+                          <h5>Added</h5>
+                          <i class="fas"></i>
+                          <p>Monday, July 5, 2021</p>
+                      </div>
+                      <div>
+                          <h5>Reminder</h5>
+                          <i class="fas fa-stopwatch"></i>
+                          <p>Saturday, December 20, 2021</p>
+                      </div>
+                      <div>
+                          <h5>Location</h5>
+                          <i class="fas fa-map-marker-alt"></i>
+                          <p>Gloam Boutique, #100 Airport Road<br>Uyo, Akwa Ibom State</p>
+                      </div>
+                    </div>
+                    <div class="shorten">
+                        <h5>Description</h5>
+                        <p><a href="#">I'll have to purchase this shoes to compliment the colour of the dress i'll wear on my graduation day</a></p>
+                    </div>
+                    <div class="share">
+                        <h5>Share</h5>
+                        <i class="fas fa-user-friends"></i>
+                        <p>Item shared with <span>Shola</span></p>
+                        <div class="close">
+                            <a href="#"><i class="fas fa-angle-up"></i><span>Close</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="images/Rectangle 97.png" alt="">
+                    <figcaption>Enable a friend to view this wish</figcaption>
+                    <h6>Update Settings</h6>
+                </figure>
+                <div class="content-details">
+                    <div class="title">
+                        <div class="unit">
+                            <h4>Joll of Rice</h4>
+                            <div class="circle" id="default3"></div><small>Tag</small>
+                        </div>
+                        <a href="#"><i class="fas fa-pencil-alt"></i></a>
+                    </div>
+                    <div class="category-grp">
+                      <div>
+                          <h5>Category</h5>
+                          <i class="fas"></i>
+                          <p>Food</p>
+                      </div>
+                      <div>
+                          <h5>Added</h5>
+                          <i class="fas"></i>
+                          <p>Saturday, June 26, 2021</p>
+                      </div>
+                      <div>
+                          <h5>Reminder</h5>
+                          <i class="fas fa-stopwatch"></i>
+                          <p>Thursday, July 22, 2021</p>
+                      </div>
+                      <div>
+                          <h5>Location</h5>
+                          <i class="fas fa-map-marker-alt"></i>
+                          <p>5-Star Hotel, #150 Nwaniba Road<br>Uyo, Akwa Ibom State</p>
+                      </div>
+                    </div>
+                    <div class="shorten">
+                        <h5>Description</h5>
+                        <p><a href="#">Found this in Maya Restaurant, I'll go with mum to eat with her there on Tuesday, July 20, 2021</a></p>
+                    </div>
+                    <div class="share">
+                        <h5>Share</h5>
+                        <i class="fas fa-user-friends"></i>
+                        <p>Not shared <span></span></p>
+                        <div class="close">
+                            <a href="#"><i class="fas fa-angle-up"></i><span>Close</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <i class="fas fa-arrow-circle-up"></i>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
